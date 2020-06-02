@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - PASSWORD VALIDATOR</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div align='center'>
+    <h1 id='header1'>PASSWORD VALIDATOR<h1>
+    <div>
+      <form>
+        Enter Password:<br>
+        <input id='input-val'
+          name='password' type='text'>&nbsp; 
+        <div class="perc">0%</div>
+      </form>
+    </div>
+    <div class="err-msg"></div>
+    <div class="pw-strength-wrapper">
+     <div class="indicator hide red">
+       <span>Weak</span>
+     </div>
+     <div class="indicator hide orange">
+       <span>Average</span>
+     </div>
+     <div class="indicator hide blue">
+       <span>Strong</span>
+     </div>
+     <div class="indicator hide green">
+       <span>Very Strong</span>
+     </div>
+    </div>
+<!--       end of pw strength wrapper -->
+  </div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

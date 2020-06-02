@@ -1,0 +1,29 @@
+.progress-password{
+  height: 5px;
+  margin:-10px -15px 10px;
+  background:#ccc;
+}
+
+.validation-list{
+  margin-left: 0;
+  padding-left: 10px;
+}
+
+.form-group .form-control-feedback{
+  opacity:0;
+}
+.form-group.has-success .form-control-feedback{
+  opacity:1;
+}
+
+.form-group .popover-errors{
+  display:none;
+  top:100%;
+  min-width:280px;
+}
+.form-group .popover-errors .arrow{
+  left:10%;
+}
+.form-group.has-error .popover-errors{
+  display:block;
+}
