@@ -112,9 +112,9 @@ $randd = base64_encode(openssl_random_pseudo_bytes(30));
 		$mail->SMTPSecure = "ssl";  // prefix for secure protocol to connect to the server
 		$mail->Host       = "smtp.gmail.com";      // setting GMail as our SMTP server
 		$mail->Port       = 465;                   // SMTP port to connect to GMail
-		$mail->Username   = "apanamanya006@gmail.com";  // user email address
-		$mail->Password   = "aselole9091";            // password in GMail
-		$mail->SetFrom('apanamanya006@gmail.com', 'Reset Password');  //Who is sending 
+		$mail->Username   = "xxxxxxxxxx@gmail.com";  // user email address
+		$mail->Password   = "xxxxxxxx";            // password in GMail
+		$mail->SetFrom('axxxxxxx@gmail.com', 'Reset Password');  //Who is sending 
 		$mail->isHTML(true);
 
 
